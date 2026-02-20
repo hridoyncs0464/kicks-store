@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "NIKE AIR MAX",
+    "subtitle": "Nike Air Max 90",
+    "description": "Nike introducing the new air max for everyone's comfort",
+    "buttonText": "SHOP NOW",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80",
+    "badge": "Nike product of the year"
+  },
+  {
+    "id": 2,
+    "title": "ADIDAS ULTRABOOST",
+    "subtitle": "Adidas Ultraboost 22",
+    "description": "Experience ultimate comfort with responsive cushioning technology",
+    "buttonText": "SHOP NOW",
+    "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=1200&q=80",
+    "badge": "Best Running Shoe 2024"
+  },
+  {
+    "id": 3,
+    "title": "NIKE JORDAN 1",
+    "subtitle": "Air Jordan 1 Retro High",
+    "description": "Classic basketball style meets modern street fashion",
+    "buttonText": "SHOP NOW",
+    "image": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=1200&q=80",
+    "badge": "Limited Edition"
+  },
+  {
+    "id": 4,
+    "title": "ADIDAS YEEZY",
+    "subtitle": "Yeezy Boost 350 V2",
+    "description": "Innovative design with premium comfort and style",
+    "buttonText": "SHOP NOW",
+    "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=1200&q=80",
+    "badge": "Trending Now"
+  },
+  {
+    "id": 5,
+    "title": "NIKE REACT",
+    "subtitle": "Nike React Infinity Run",
+    "description": "Designed to help reduce injury and keep you running",
+    "buttonText": "SHOP NOW",
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=1200&q=80",
+    "badge": "Runner's Choice"
+  }
+]
