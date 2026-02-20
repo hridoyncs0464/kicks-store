@@ -36,6 +36,7 @@ const HeroSlider = () => {
       setCurrentSlide(index);
       setTimeout(() => setIsTransitioning(false), 500);
     }
+       
   };
 
   const slide = sliderData[currentSlide];
@@ -44,6 +45,8 @@ const HeroSlider = () => {
 
   return (
     <section className="w-full bg-[#f3f3f3]  pt-6 pb-8">
+      {/* ── "DO IT RIGHT" headline ── */}
+
       <h1
         className="w-full text-center   leading-none font-black tracking-tight mb-3 select-none "
         style={{ fontSize: "clamp(3.5rem, 10vw, 7.5rem)" }}
@@ -53,15 +56,9 @@ const HeroSlider = () => {
       </h1>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
-        {/* ── "DO IT RIGHT" headline ── */}
-
-        {/* <h1
-          className="leading-none  font-black tracking-tight mb-3 select-none"
-          style={{ fontSize: 'clamp(3.5rem, 10vw, 7.5rem)' }}
-        >
-          <span className="text-black">DO IT </span>
-          <span className="text-blue-600">RIGHT</span>
-        </h1> */}
+       
+     
+              
 
         {/* ── Main card ── */}
         <div
@@ -95,7 +92,7 @@ const HeroSlider = () => {
               style={{
                 writingMode: "vertical-rl",
                 transform: "rotate(180deg)",
-              }}
+              }} 
             >
               {slide.badge}
             </div>
