@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { API_ENDPOINTS } from '../../config/api';
 import { useCart } from '../context/CartContext';
-import ShoeCard from '../products/ShoeCard';
 import RecommendedProducts from '../shared/RecommendedProducts';
 import Toast from '../shared/Toast';
 

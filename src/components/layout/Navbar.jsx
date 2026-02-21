@@ -71,13 +71,13 @@ const Navbar = () => {
               </button>
               {isMenOpen && (
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2">
-                  <NavLink to="/men/shoes" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  <NavLink to="/products" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Shoes
                   </NavLink>
-                  <NavLink to="/men/clothing" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  <NavLink to="/products" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Clothing
                   </NavLink>
-                  <NavLink to="/men/accessories" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  <NavLink to="/products" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Accessories
                   </NavLink>
                 </div>
@@ -102,13 +102,13 @@ const Navbar = () => {
               </button>
               {isWomenOpen && (
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2">
-                  <NavLink to="/women/shoes" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  <NavLink to="/products" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Shoes
                   </NavLink>
-                  <NavLink to="/women/clothing" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  <NavLink to="/products" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Clothing
                   </NavLink>
-                  <NavLink to="/women/accessories" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  <NavLink to="/products" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Accessories
                   </NavLink>
                 </div>
@@ -194,21 +194,21 @@ const Navbar = () => {
               {isMenOpen && (
                 <div className="ml-4 mt-2 space-y-2">
                   <NavLink 
-                    to="/men/shoes" 
+                    to="/products" 
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-sm text-gray-600"
                   >
                     Shoes
                   </NavLink>
                   <NavLink 
-                    to="/men/clothing" 
+                   to="/products"
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-sm text-gray-600"
                   >
                     Clothing
                   </NavLink>
                   <NavLink 
-                    to="/men/accessories" 
+                    to="/products"
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-sm text-gray-600"
                   >
@@ -231,21 +231,21 @@ const Navbar = () => {
               {isWomenOpen && (
                 <div className="ml-4 mt-2 space-y-2">
                   <NavLink 
-                    to="/women/shoes" 
+                   to="/products"
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-sm text-gray-600"
                   >
                     Shoes
                   </NavLink>
                   <NavLink 
-                    to="/women/clothing" 
+                  to="/products"
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-sm text-gray-600"
                   >
                     Clothing
                   </NavLink>
                   <NavLink 
-                    to="/women/accessories" 
+                    to="/products"
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-sm text-gray-600"
                   >

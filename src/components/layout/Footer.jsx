@@ -75,32 +75,32 @@ const Footer = () => {
               <h3 className="text-orange-500 text-xl font-bold mb-4 font-heading">Categories</h3>
               <ul className="space-y-2 font-body">
                 <li>
-                  <NavLink to="/category/runners" className="text-gray-300 hover:text-white transition-colors text-sm">
+                  <NavLink to="/products" className="text-gray-300 hover:text-white transition-colors text-sm">
                     Runners
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/category/sneakers" className="text-gray-300 hover:text-white transition-colors text-sm">
+                  <NavLink to="/products" className="text-gray-300 hover:text-white transition-colors text-sm">
                     Sneakers
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/category/basketball" className="text-gray-300 hover:text-white transition-colors text-sm">
+                  <NavLink to="/products" className="text-gray-300 hover:text-white transition-colors text-sm">
                     Basketball
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/category/outdoor" className="text-gray-300 hover:text-white transition-colors text-sm">
+                  <NavLink to="/products" className="text-gray-300 hover:text-white transition-colors text-sm">
                     Outdoor
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/category/golf" className="text-gray-300 hover:text-white transition-colors text-sm">
+                  <NavLink to="/products" className="text-gray-300 hover:text-white transition-colors text-sm">
                     Golf
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/category/hiking" className="text-gray-300 hover:text-white transition-colors text-sm">
+                  <NavLink to="/products" className="text-gray-300 hover:text-white transition-colors text-sm">
                     Hiking
                   </NavLink>
                 </li>
