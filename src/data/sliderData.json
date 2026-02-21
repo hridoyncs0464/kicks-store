@@ -3,16 +3,16 @@
     "id": 1,
     "title": "NIKE AIR MAX",
     "subtitle": "Nike Air Max 90",
-    "description": "Nike introducing the new air max for everyone's comfort",
+    "description": "Nike introducing the  new air max for everyone's comfort",
     "buttonText": "SHOP NOW",
     "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80",
     "badge": "Nike product of the year"
   },
   {
     "id": 2,
-    "title": "ADIDAS ULTRABOOST",
+    "title": "ADIDAS  ULTRABOOST",
     "subtitle": "Adidas Ultraboost 22",
-    "description": "Experience ultimate comfort with responsive cushioning technology",
+    "description": "Experience  ultimate comfort with responsive cushioning technology",
     "buttonText": "SHOP NOW",
     "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=1200&q=80",
     "badge": "Best Running Shoe 2024"
@@ -35,9 +35,9 @@
     "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=1200&q=80",
     "badge": "Trending Now"
   },
-  {
+  {     
     "id": 5,
-    "title": "NIKE REACT",
+    "title": "NIKE REACT  ",
     "subtitle": "Nike React Infinity Run",
     "description": "Designed to help reduce injury and keep you running",
     "buttonText": "SHOP NOW",
