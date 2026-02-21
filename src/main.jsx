@@ -8,6 +8,7 @@ import Home from "./components/pages/Home.jsx";
 import ProductDetails from "./components/pages/ProductDetails.jsx";
 import Cart from "./components/pages/Cart.jsx";
 import AllReviews from "./components/pages/AllReviews.jsx";
+import AllProducts from "./components/pages/AllProducts.jsx";
 import { ProductsProvider } from "./components/context/ProductsContext.jsx";
 import { CartProvider } from "./components/context/CartContext.jsx";
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "reviews",
         element: <AllReviews />,
+      },
+      {
+        path: "products",
+        element: <AllProducts />,
       },
     ],
   },
