@@ -1,0 +1,83 @@
+
+[
+  {
+    "_id": "rev_001_a8f3c2d1",
+    "name": "Amara Osei",
+    "image": "https://i.pravatar.cc/150?img=12",
+    "rating": 5,
+    "review": "Wore these on a 10-mile hike last weekend and my feet felt great the whole time. The cushioning is genuinely impressive and the fit is true to size. Delivery was faster than expected too.",
+    "productName": "TrailBlaze Pro X1",
+    "productImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+    "date": "2026-02-20T00:00:00Z"
+  },
+  {
+    "_id": "rev_002_b7e4f9a0",
+    "name": "Lena Kowalski",
+    "image": "https://i.pravatar.cc/150?img=47",
+    "rating": 4,
+    "review": "The colorway on these is stunning in person, way better than the photos. They run slightly narrow so size up if you have wider feet. Overall really happy with the build quality.",
+    "productName": "Neon Drift Low",
+    "productImage": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&q=80",
+    "date": "2026-02-20T00:00:00Z"
+  },
+  {
+    "_id": "rev_003_c1d6e8b2",
+    "name": "Marcus Tran",
+    "image": "https://i.pravatar.cc/150?img=33",
+    "rating": 5,
+    "review": "Been wearing these daily for two months and they still look brand new. The sole grip on wet pavement is solid and the breathable upper keeps things comfortable even after long shifts.",
+    "productName": "UrbanEdge Runner 2.0",
+    "productImage": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=600&q=80",
+    "date": "2026-02-20T00:00:00Z"
+  },
+  {
+    "_id": "rev_004_d2e7f1a3",
+    "name": "Sofia Reyes",
+    "image": "https://i.pravatar.cc/150?img=5",
+    "rating": 5,
+    "review": "These are by far the most comfortable sneakers I have owned. Wore them to a wedding and stood for hours without any discomfort. The white colorway is clean and goes with everything.",
+    "productName": "CloudStep Elite",
+    "productImage": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600&q=80",
+    "date": "2026-02-18T00:00:00Z"
+  },
+  {
+    "_id": "rev_005_e9c3b6d4",
+    "name": "James Okafor",
+    "image": "https://i.pravatar.cc/150?img=68",
+    "rating": 4,
+    "review": "Solid performance shoe for the price. The grip on the court is great and the ankle support is better than I expected. Took a few days to break in but now they feel like a second skin.",
+    "productName": "CourtKing Pro",
+    "productImage": "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?w=600&q=80",
+    "date": "2026-02-15T00:00:00Z"
+  },
+  {
+    "_id": "rev_006_f4a8e2c7",
+    "name": "Yuki Tanaka",
+    "image": "https://i.pravatar.cc/150?img=25",
+    "rating": 5,
+    "review": "Ordered these for my morning runs and I am genuinely impressed. Lightweight, responsive sole, and the mesh upper keeps my feet cool even in humid weather. Will definitely buy again.",
+    "productName": "SwiftPace V3",
+    "productImage": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600&q=80",
+    "date": "2026-02-12T00:00:00Z"
+  },
+  {
+    "_id": "rev_007_g6b1d9e5",
+    "name": "Priya Sharma",
+    "image": "https://i.pravatar.cc/150?img=9",
+    "rating": 4,
+    "review": "Love the chunky sole design on these. They look great with jeans or joggers. The only minor thing is the laces could be a bit longer but that is easy to fix. Packaging was also really nice.",
+    "productName": "BoldStep Platform",
+    "productImage": "https://images.unsplash.com/photo-1539185441755-769473a23570?w=600&q=80",
+    "date": "2026-02-10T00:00:00Z"
+  },
+  {
+    "_id": "rev_008_h3c7f0b2",
+    "name": "Ethan Müller",
+    "image": "https://i.pravatar.cc/150?img=52",
+    "rating": 5,
+    "review": "These replaced my old hiking boots and I could not be happier. Waterproof, sturdy, and surprisingly stylish. Wore them on a muddy trail and they held up without any issues at all.",
+    "productName": "TerraTough GTX",
+    "productImage": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=600&q=80",
+    "date": "2026-02-08T00:00:00Z"
+  }
+]

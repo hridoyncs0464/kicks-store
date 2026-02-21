@@ -11,7 +11,7 @@ const Home = () => {
         <NewDrops></NewDrops>
         <Categories></Categories>
         <Reviews>
-            
+
         </Reviews>
        </main>
     );
