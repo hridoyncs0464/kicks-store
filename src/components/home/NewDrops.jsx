@@ -57,11 +57,11 @@ const NewDrops = () => {
   );
 
   return (
-    <section className="bg-[#f5f5f5] py-12 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#f5f5f5] py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         
         {/* Header */}
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-3">
           <div>
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 uppercase leading-tight">
               DON'T MISS OUT

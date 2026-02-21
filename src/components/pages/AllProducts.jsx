@@ -69,11 +69,11 @@ const AllProducts = () => {
   );
 
   return (
-    <section className="bg-[#f5f5f5] min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#f5f5f5] min-h-screen py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         
         {/* Header */}
-        <div className="mb-8">
+        <div className="mb-6">
           <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 uppercase leading-tight mb-2">
             ALL SHOES
           </h1>

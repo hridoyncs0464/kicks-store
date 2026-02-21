@@ -64,11 +64,11 @@ export default function Categories() {
     <>
       <style>{styles}</style>
 
-      <section className="bg-[#2a2a2a] py-12 px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#2a2a2a] py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           
           {/* Header bar */}
-          <div className="flex justify-between items-center mb-8">
+          <div className="flex justify-between items-center mb-6">
             <h2 className="font-heading text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-[74px] font-semibold text-white uppercase tracking-tight">
               CATEGORIES
             </h2>

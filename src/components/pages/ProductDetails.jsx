@@ -4,6 +4,7 @@ import { API_ENDPOINTS } from '../../config/api';
 import { useCart } from '../context/CartContext';
 import ShoeCard from '../products/ShoeCard';
 import RecommendedProducts from '../shared/RecommendedProducts';
+import Toast from '../shared/Toast';
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -17,6 +18,7 @@ const ProductDetails = () => {
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedSize, setSelectedSize] = useState('38');
   const [selectedColor, setSelectedColor] = useState(0);
+  const [showToast, setShowToast] = useState(false);
 
   // Mock data for missing fields
   const sizes = ['38', '39', '40', '41', '42', '43', '44', '45', '46', '47'];
@@ -78,7 +80,7 @@ const ProductDetails = () => {
         selectedSize,
         selectedColor: colors[selectedColor].name
       });
-      alert('Added to cart!');
+      setShowToast(true);
     }
   };
 
@@ -134,8 +136,17 @@ const ProductDetails = () => {
 
   return (
     <div className="min-h-screen bg-[#f5f5f5]">
+      {/* Toast Notification */}
+      {showToast && (
+        <Toast
+          message="Product added to cart successfully!"
+          type="success"
+          onClose={() => setShowToast(false)}
+        />
+      )}
+
       {/* Product Details Section */}
-      <section className="py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
+      <section className="py-6 sm:py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
             

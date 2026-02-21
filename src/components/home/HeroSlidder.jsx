@@ -43,10 +43,10 @@ const HeroSlidder = () => {
   const thumb2 = sliderData[(currentSlide + 2) % totalSlides];
 
   return (
-    <section className="w-full bg-[#f3f3f3] pt-6 pb-8">
+    <section className="w-full bg-[#f3f3f3] pt-4 pb-6">
       {/* ── "DO IT RIGHT" headline ── */}
       <h1
-        className="w-full text-center leading-none font-black tracking-tight mb-3 select-none"
+        className="w-full text-center leading-none font-black tracking-tight mb-2 select-none"
         style={{ fontSize: "clamp(3.75rem, 10vw, 7.5rem)" }}
       >
         <span className="text-black">DO IT </span>
